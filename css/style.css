@@ -1,3 +1,14 @@
+body{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    
+}
 nav {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
@@ -12,6 +23,8 @@ ul {
     padding: 0;
 
 }
+img{
+}
 
 li a {
     float: right;
@@ -25,4 +38,15 @@ li a {
 .right{
     float: left;
 
+}
+.center{
+    display: block;
+    margin: 0 auto;
+
+    
+}
+form{
+    display: inline-block;
+    width: 300px;
+    height:50px;
 }
